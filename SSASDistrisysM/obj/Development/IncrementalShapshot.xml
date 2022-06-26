@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASDistrisysM</Database>
+    <Server>MONSERVEUR\MONINSTANCE</Server>
+    <ConnectionString>Data Source=MONSERVEUR\MONINSTANCE;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>AwOTdcizl7zy42FgTOOlHVJraIU=06/02/2022 17:29:4906/02/2022 15:29:15</TimeStamp>
+        <ID>
+          <String>Distrisys DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>k7ii1nCvH2/qsz5v4WRcW0xCJno=21/02/2022 15:11:5406/02/2022 16:18:18</TimeStamp>
+        <ID>
+          <String>Distrisys DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9WHVqfiOjewPnwHcYxQ89uhp6F0=14/03/2022 14:27:0606/02/2022 16:39:26</TimeStamp>
+        <ID>
+          <String>Dim Client</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b0W49nHBE3OZH+nRXapYjLwlz9k=14/03/2022 14:30:5906/02/2022 16:39:26</TimeStamp>
+        <ID>
+          <String>Dim Produit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wETl5zh0vKtI6ocU9RzztD75fBQ=14/03/2022 14:36:1306/02/2022 16:39:26</TimeStamp>
+        <ID>
+          <String>Dim Temps</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p00EVr5uhmhrtbst/cskfCTiS3A=14/03/2022 14:39:3406/02/2022 17:08:41</TimeStamp>
+        <ID>
+          <String>Site</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9TzYkMVTMT/0NryU7urVsTr2orM=06/06/2022 18:11:3506/02/2022 16:39:262QmrZVOqnMN/qcgWfIgbCyOlSBk=06/06/2022 18:11:3506/02/2022 16:39:26</TimeStamp>
+        <ID>
+          <String>CubeFactures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>mXOIddKEB08fQ+3flKybP3GVyV0=14/03/2022 10:00:4314/03/2022 09:54:02</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>pMfKL3bIGvG4PYXEJCK5eXoPtHg=14/03/2022 10:37:0614/03/2022 10:10:56</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>kNQj3XPcviyh0gzLHoC7dDX6sgA=14/03/2022 10:12:2806/02/2022 15:11:15</TimeStamp>
+      <ID>
+        <String>SSASDistrisysM</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-06-06T16:11:42.436667Z</LastDeployed>
+</DeploymentSnapshot>
